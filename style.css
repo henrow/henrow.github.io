@@ -1,18 +1,32 @@
 body {
-	background-color:#fffef9;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color:#ffffe6;
+	color: #3d405b;
+	font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif
 }
 main {
 	width:75vw; 
 	max-width: 650px; 
-	margin: 30vh auto 0
+	margin: 25vh auto 0
 }
 h1 {
-	font-size: 36px;
+	font-size: 2em;
 	font-weight: bold;
 }
+p {
+	font-size: 1.2em;
+}
 
-span.avoidwrap { display:inline-block; }
+.short {display: inline}
+.long {display: none}
+@media (min-width: 600px) {
+	.long {display: inline}
+	.short {display: none}
+}
+.decorativeLine {
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: #3d405b;
+}
 
 #glasses-box {
 	position: relative
@@ -21,20 +35,13 @@ span.avoidwrap { display:inline-block; }
 #glasses-SVG {
 	position: relative;
 	z-index: 1;
-	width:250px
+	width:60%;
+	max-width: 250px;
 }
 #glasses-SVG-background {
-	fill: #fffef9
+	fill: #ffffe6
 }
 .glasses-SVG-lines {
-	fill: #000000
+	fill: #3d405b 
 }
 
-#TEST {
-	position: absolute;
-	top: 4px;
-	left: 50px;
-	z-index: 0;
-	width: 195px;
-	height:80px;
-}
