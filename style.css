@@ -2,14 +2,18 @@ body {
 	background-color:#fffef9;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-h1 {
-	font-weight: bold;
-}
 main {
 	width:75vw; 
-	max-width: 500px; 
+	max-width: 650px; 
 	margin: 30vh auto 0
 }
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+span.avoidwrap { display:inline-block; }
+
 #glasses-box {
 	position: relative
 }
