@@ -1,0 +1,36 @@
+body {
+	background-color:#fffef9;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h1 {
+	font-weight: bold;
+}
+main {
+	width:75vw; 
+	max-width: 500px; 
+	margin: 30vh auto 0
+}
+#glasses-box {
+	position: relative
+}
+
+#glasses-SVG {
+	position: relative;
+	z-index: 1;
+	width:250px
+}
+#glasses-SVG-background {
+	fill: #fffef9
+}
+.glasses-SVG-lines {
+	fill: #000000
+}
+
+#TEST {
+	position: absolute;
+	top: 4px;
+	left: 50px;
+	z-index: 0;
+	width: 195px;
+	height:80px;
+}
