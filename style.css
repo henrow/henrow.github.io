@@ -1,32 +1,19 @@
 body {
-	background-color:#ffffe6;
-	color: #3d405b;
-	font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif
+	background-color:#fffef9;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+
 main {
 	width:75vw; 
 	max-width: 650px; 
-	margin: 25vh auto 0
+	margin: 30vh auto 0
 }
 h1 {
-	font-size: 2em;
+	font-size: 36px;
 	font-weight: bold;
 }
-p {
-	font-size: 1.2em;
-}
 
-.short {display: inline}
-.long {display: none}
-@media (min-width: 600px) {
-	.long {display: inline}
-	.short {display: none}
-}
-.decorativeLine {
-	overflow: hidden;
-	letter-spacing: 1px;
-	color: #3d405b;
-}
+span.avoidwrap { display:inline-block; }
 
 #glasses-box {
 	position: relative
@@ -35,13 +22,42 @@ p {
 #glasses-SVG {
 	position: relative;
 	z-index: 1;
-	width:60%;
-	max-width: 250px;
+	width:250px
 }
 #glasses-SVG-background {
-	fill: #ffffe6
+	fill: #fffef9
 }
 .glasses-SVG-lines {
-	fill: #3d405b 
+	fill: #000000
 }
 
+#passwordbox {
+	width: 30vw;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#passwordinput {
+	margin: 20px;
+}
+
+#TEST {
+	position: absolute;
+	top: 4px;
+	left: 50px;
+	z-index: 0;
+	width: 195px;
+	height:80px;
+}
+
+.flex-center {
+	width: 100vw;
+	height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
